@@ -1,0 +1,14 @@
+
+{
+  "Print Format": [
+    {
+      "fieldname": "country",
+      "fieldtype": "Link",
+      "options": "Country",
+      "label": "Country",
+      "insert_after": "doc_type",
+      "in_list_view": 1,
+      "in_standard_filter": 1
+    }
+  ]
+}

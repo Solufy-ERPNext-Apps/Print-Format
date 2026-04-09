@@ -5,8 +5,29 @@ app_description = "Print Formator"
 app_email = "dharmendra.l.solufy@gmail.com"
 app_license = "mit"
 
-# Apps
-# ------------------
+after_install = "print_format.after_install.after_install"
+
+# after_install         = "print_format.setup.after_install"
+# boot_session          = "print_format.setup.get_boot_info"
+# on_login              = "print_format.setup.on_login"
+
+# app_include_js  = ["assets/print_format/js/redirect_check.js"]
+# after_install = "print_format.setup.after_install"
+# after_migrate = "print_format.migrate.after_migrate"
+
+# boot_session = "print_format.setup.get_boot_info"
+# setup_wizard_complete = "print_format.setup.on_setup_wizard_complete"
+
+
+# fixtures = [
+#     {
+#         "doctype": "Custom Field",
+#         "filters": [["dt", "=", "Print Format"]]
+#     }
+# ]
+
+# app_include_js = ["assets/print_format/js/redirect_check.js"]
+
 
 # required_apps = []
 
