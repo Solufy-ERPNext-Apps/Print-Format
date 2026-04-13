@@ -267,4 +267,8 @@ after_install = "print_format.after_install.after_install"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
+doc_events = {
+    "Print Settings": {
+        "on_update": "print_format.api.doc.apply_print_settings_country"
+    }
+}
